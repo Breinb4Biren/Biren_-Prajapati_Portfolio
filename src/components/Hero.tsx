@@ -10,7 +10,7 @@ const Hero = () => {
       className="h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-b from-black via-gray-900 to-black"
     >
       <h1 className="text-4xl sm:text-6xl font-extrabold text-white mb-4">
-        👋Hi, I'm <span className="text-blue-500">Biren</span>
+        👋Hi, I&apos;m <span className="text-blue-500">Biren</span>
       </h1>
       <h2 className="text-xl sm:text-2xl text-gray-300 mb-8">
         A Passionate Full Stack Developer
