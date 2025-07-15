@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Optional: Global Styles */
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif; /* or any other you prefer */
+  background-color: #000; /* matches your dark theme */
+  color: #fff;            /* default text color */
+  overflow-x: hidden;     /* avoids horizontal scroll */
+}
+
+/* Optional: Customize scrollbar (modern touch) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937; /* Tailwind gray-800 */
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563; /* Tailwind gray-600 */
+}
